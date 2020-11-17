@@ -1,8 +1,10 @@
-package com.example.snowtam_kk;
+package com.example.snowtam_kk.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.example.snowtam_kk.R;
 
 public class MainActivity extends AppCompatActivity {
 
