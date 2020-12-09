@@ -5,6 +5,6 @@
     <color name="colorAccent">#03DAC5</color>
     <color name="green">#02876E</color>
     <color name="noire">#000000</color>
-    <color name="white">#FFFFFF</color>
     <color name="gris">#C4C4C1</color>
+    <color name="dark_grey">#C4C4C4</color>
 </resources>
