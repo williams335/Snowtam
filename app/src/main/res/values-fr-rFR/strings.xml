@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Snowtam</string>
+    <string name="search">Rechercher par OACI</string>
+    <string name="title_activity_map">map</string>
+    <string name="hello_world">Salut</string>
+    <string name="title_activity_aeroports">Aeroports</string>
+    <string name="lists">Liste vide</string>
+    <string name="title_activity_list_snowtams">Liste des Snowtams</string>
+    <string name="item_default_name">Snowtam</string>
+    <string name="user_location_permission_explanation">Permission</string>
+    <string name="user_location_permission_not_granted">Permission non autoriséz</string>
+    <string name="zoom_in_and_out_instruction">Vue de la Rue et Satellite</string>
+</resources>
