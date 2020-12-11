@@ -3,9 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.snowtam_kk">
 
-
-
-
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -14,10 +13,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".View.Map"></activity>
+
         <uses-library
             android:name="com.google.android.wearable"
             android:required="false" />
-
         <!--
                Set to true if your app is Standalone, that is, it does not require the handheld
                app to run.
@@ -26,6 +26,9 @@
             android:name="com.google.android.wearable.standalone"
             android:value="true" />
 
+        <activity
+            android:name=".View.ListSnowtams"
+            android:label="@string/title_activity_list_snowtams" />
         <activity android:name=".View.SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -33,10 +36,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".View.MainActivity"/>
-
-
+        <activity android:name=".View.MainActivity" />
     </application>
 
 </manifest>
